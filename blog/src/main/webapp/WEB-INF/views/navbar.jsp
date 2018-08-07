@@ -6,8 +6,11 @@
 @import
 	url('//cdn.rawgit.com/young-ha/webfont-archive/master/css/Godo.css');
 
-body {
+/* body {
 	font-family: 'Godo', serif;
+} */
+ul, li, a {
+	font-size: 0.85rem;
 }
 </style>
 <head>
@@ -16,12 +19,12 @@ body {
 
 	<nav
 		class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark container-fluid"
-		style="padding-left: 150px;">
+		style="padding-left: 200px;">
 		<img class="rounded-circle" alt="a"
 			src="resources/image/swimming-pool.png"
 			style="width: 30px; height: 30px; margin: 10px;"><a
 			class="navbar-brand" href="main">
-			<h2>soundcode</h2>
+			<h3 style="font-family: 'Godo';">soundcode</h3>
 		</a>
 		<button class="navbar-toggler" type="button" data-toggle="collapse"
 			data-target="#navbarSupportedContent"
@@ -52,14 +55,18 @@ body {
 				<li class="nav-item dropdown"><a
 					class="nav-link dropdown-toggle" href="#" id="navbarDropdown"
 					role="button" data-toggle="dropdown" aria-haspopup="false"
-					aria-expanded="false">a</a>
+					aria-expanded="false"><img class="rounded-circle" alt="a"
+						src="resources/image/global.png"
+						style="width: 30px; height: 30px; margin: 10px;"></a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
-						<a class="dropdown-item" href="#">code</a> <a
-							class="dropdown-item" href="#">language</a>
+						<a class="dropdown-item" href="#">한국어</a> <a
+							class="dropdown-item" href="#">ENG</a>
 					</div></li>
 			</ul>
-			<form class="form-inline my-2 my-lg-0" style="padding-right: 150px;">
-				<button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Search</button>
+			<form class="form-inline my-2 my-lg-0" style="padding-right: 200px;">
+				<img class="rounded-circle" alt="a"
+					src="resources/image/magnifying-glass.png"
+					style="width: 30px; height: 30px; margin: 10px;">
 			</form>
 			<!-- 검색 창 -->
 			<!-- <form class="form-inline my-2 my-lg-0" style="padding-right: 150px;">

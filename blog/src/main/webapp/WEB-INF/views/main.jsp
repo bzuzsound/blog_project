@@ -9,7 +9,7 @@
 <body>
 
 	<div class="container">
-		main 화면입니다
+		main 화면입니다 
 		<button class="btn btn-primary">테스트</button>
 	</div>
 </body>
