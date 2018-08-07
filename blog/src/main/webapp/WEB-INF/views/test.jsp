@@ -7,10 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<script type="text/javascript">
-	location.href="main";
-</script>
-test
-
+	testtest
 </body>
 </html>
